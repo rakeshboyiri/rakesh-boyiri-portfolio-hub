@@ -59,7 +59,7 @@ const SkillsSection = () => {
             <div className="text-sm text-muted-foreground">GeeksforGeeks & LeetCode</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-gradient mb-2">9.01</div>
+            <div className="text-4xl font-bold text-gradient mb-2">8.96</div>
             <div className="text-muted-foreground">CGPA</div>
             <div className="text-sm text-muted-foreground">Current Semester</div>
           </div>

@@ -7,8 +7,8 @@ const EducationSection = () => {
     {
       degree: "B.Tech in Computer Science and Engineering",
       institution: "Rajiv Gandhi University of Knowledge and Technologies – Basar",
-      cgpa: "9.01 / 10.0",
-      period: "4th Semester",
+      cgpa: "8.96 / 10.0",
+      period: "5th Semester",
       status: "Current",
       icon: GraduationCap,
       highlights: ["Dean's List", "Top 10% of Class", "Advanced Coursework"]

@@ -1,25 +1,26 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Database, Shield, Smartphone, Monitor } from 'lucide-react';
+import { ExternalLink, Github, Database, Shield, Smartphone, Monitor, Brain } from 'lucide-react';
 
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "School Management System",
-      description: "Full-stack web application to streamline school operations, including student management and administrative tasks. Features real-time data updates, secure authentication, and role-based access control.",
-      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "JavaScript"],
+      title: "AI Virtual Interview System",
+      description: "AI-powered mock interview platform that generates questions from job descriptions and analyzes voice-based answers using Google Gemini AI. Provides real-time feedback and performance ratings.",
+      tech: ["React.js", "TypeScript", "Google Gemini AI", "Firebase", "React-Hook-Form", "Clerk", "Tailwind CSS"],
       features: [
-        "Real-time data updates",
-        "Secure authentication",
-        "Role-based access control",
-        "Student management",
-        "Administrative dashboard"
+        "Dynamic question generation from job description",
+        "Voice input with speech-to-text conversion",
+        "Answer analysis using Gemini AI",
+        "Real-time performance feedback",
+        "Rating system for candidate evaluation"
       ],
-      icon: Database,
-      github: "#",
-      live: "#"
+      icon: Brain, // or any icon representing AI/interview
+      github: "",
+      live: "https://interview-system.onrender.com/"
     },
+    
     {
       title: "Personal Portfolio",
       description: "Responsive portfolio website built with Next.js showcasing projects, technical skills, and professional experience. Features smooth navigation and dynamic project rendering.",
@@ -32,7 +33,7 @@ const ProjectsSection = () => {
         "Performance optimized"
       ],
       icon: Monitor,
-      github: "#",
+      github: "https://github.com/rakeshboyiri/rakesh-boyiri-portfolio-hub",
       live: "#"
     },
     {
@@ -48,7 +49,7 @@ const ProjectsSection = () => {
       ],
       icon: Shield,
       github: "#",
-      live: "#"
+      live: "https://phamagen.ai/"
     }
   ];
 

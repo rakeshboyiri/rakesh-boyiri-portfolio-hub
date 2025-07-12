@@ -31,25 +31,25 @@ const ContactSection = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "#",
+      href: "https://www.linkedin.com/in/rakesh-boyiri/",
       color: "hover:text-[#0077B5]"
     },
     {
       icon: Github,
       label: "GitHub", 
-      href: "#",
+      href: "https://github.com/rakeshboyiri",
       color: "hover:text-[#333]"
     },
     {
       icon: ExternalLink,
       label: "GeeksforGeeks",
-      href: "#",
+      href: "https://www.geeksforgeeks.org/user/rakesh_boyiri/",
       color: "hover:text-[#2F8D46]"
     },
     {
       icon: ExternalLink,
       label: "LeetCode",
-      href: "#",
+      href: "https://leetcode.com/u/rakesh_boyiri/",
       color: "hover:text-[#FFA500]"
     }
   ];
